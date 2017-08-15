@@ -68,6 +68,21 @@ to allow power switching.
   - B&B Electronics: UHR204
   - Belkin: F5U701
   - Linksys: USB2HUB4
+  - Raspberry Pi 2: the usb port numbering posted bellow, if the port value is 2, all the 4 usb ports will be controled
+____________________________________________
+|                                          |
+|  ______________      _______   ______    |
+|  |            |      |     |   |    |    |
+|  |            |      |  p2 |   | p4 |    |
+|  |            |      |     |   |    |    |
+|  |  ETH0(p1)  |      +-----+   +----+    |
+|  |            |                          |
+|  |            |      _______   ______    |
+|  |            |      |     |   |    |    |
+|  |            |      |  p3 |   | p5 |    |
+|  |            |      |     |   |    |    |
+|  |____________|      +-----+   +----+    |
++------------------------------------------+
 
 Original Copyright
 ==================
@@ -78,3 +93,4 @@ Author: NIIBE Yutaka  <gniibe at fsij.org>
 
 This file can be distributed under the terms and conditions of the GNU General
 Public License version 2 (or later).
+
